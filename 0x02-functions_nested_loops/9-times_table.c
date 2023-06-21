@@ -9,7 +9,7 @@ void times_table(void)
 	for (num = 0; num <= 9; num++)
 	{
 		_putchar('0');
-		for (mutl = 1; mult <= 9; mult++)
+		for (mult = 1; mult <= 9; mult++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -17,9 +17,9 @@ void times_table(void)
 			if (prod <= 9)
 				_putchar(' ');
 			else
-				_putchart((prod / 10 + '0');
-						_putchar((prod % 10 + '0');
+				_putchar((prod / 10 + '0'));
+						_putchar((prod % 10 + '0'));
 							}
-							putchar('\n');
+							_putchar('\n');
 							}
 							}
